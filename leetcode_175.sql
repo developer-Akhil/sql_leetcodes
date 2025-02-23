@@ -16,6 +16,4 @@ insert into leetcode.Address_175 (addressId, personId, city, state) values ('1',
 
 insert into leetcode.Address_175 (addressId, personId, city, state) values ('2', '3', 'Leetcode', 'California');
 
-select firstName,lastName,city,state from leetcode.Person_175 p left join leetcode.Address_175 a
-
-on p.personId = a.personId; 
+select firstName,lastName,city,state from leetcode.Person_175 p left join leetcode.Address_175 a on p.personId = a.personId; 
