@@ -5,6 +5,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 175. Combine Two Tables
 
 176. Second Highest Salary
+177. Nth Highest Salary
 178. Rank Scores
 180. Consecutive Numbers
 181. Employees Earning More Than Their Managers
