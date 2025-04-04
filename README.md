@@ -17,3 +17,5 @@ Leetcode 182
 Leetcode 183
 
 Leetcode 184
+
+1327. List the Products Ordered in a Period
