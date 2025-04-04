@@ -6,17 +6,9 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 176. Second Highest Salary
 178. Rank Scores
-
-Leetcode 178
-
-Leetcode 180
-
-Leetcode 181
-
-Leetcode 182
-
-Leetcode 183
-
-Leetcode 184
-
+180. Consecutive Numbers
+181. Employees Earning More Than Their Managers
+182. Duplicate Emails
+183. Customers Who Never Order
+184. Department Highest Salary
 1327. List the Products Ordered in a Period
