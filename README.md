@@ -2,9 +2,10 @@
 
 It contains details of the leetcode SQL queries, including their schema and table structure.
 
-Leetcode 175
+175. Combine Two Tables
 
-Leetcode 176
+176. Second Highest Salary
+178. Rank Scores
 
 Leetcode 178
 
