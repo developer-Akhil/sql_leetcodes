@@ -13,4 +13,5 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 183. Customers Who Never Order
 184. Department Highest Salary
 196. Rising Temperature
+
 1327. List the Products Ordered in a Period
