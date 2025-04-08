@@ -1,6 +1,7 @@
 # Description
-Table: Events
+Table: `Events`
 
+```
 +---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
@@ -8,8 +9,11 @@ Table: Events
 | event_type    | varchar |
 | occurrences   | int     | 
 +---------------+---------+
+
 (business_id, event_type) is the primary key (combination of columns with unique values) of this table.
 Each row in the table logs the info that an event of some type occurred at some business for a number of times.
+```
+
 The average activity for a particular event_type is the average occurrences across all companies that have this event.
 
 An active business is a business that has more than one event_type such that their occurrences is strictly greater than the average activity for that event.
@@ -21,6 +25,7 @@ Return the result table in any order.
 The result format is in the following example.
 Example 1:
 
+```
 Input: 
 Events table:
 +-------------+------------+-------------+
@@ -46,12 +51,15 @@ The average activity for each event can be calculated as follows:
 - 'ads': (11+7+6)/3 = 8
 - 'page views': (3+12)/2 = 7.5
 The business with id=1 has 7 'reviews' events (more than 5) and 11 'ads' events (more than 8), so it is an active business.
+```
 
 # Solution
 
+```
 with cte as (
    SELECT
             business_id,
             occurences , AVG(occurences) OVER (PARTITION BY event_type) AS mark
         FROM leetcode.Events_1126)
 select business_id from cte where occurences > mark group by business_id having count(business_id) > 1;
+```
