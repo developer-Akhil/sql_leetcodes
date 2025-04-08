@@ -14,5 +14,5 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 184. Department Highest Salary
 196. Delete Duplicate Emails
 197. Rising Temperature
-
+1126. Active Businesses 
 1327. List the Products Ordered in a Period
