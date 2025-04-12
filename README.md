@@ -14,5 +14,10 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 184. Department Highest Salary
 196. Delete Duplicate Emails
 197. Rising Temperature
-1126. Active Businesses 
-1327. List the Products Ordered in a Period
+
+1077 [Project Employees III](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1077.md) 
+
+1126 [Active Businesses](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1126.md) 
+
+1327 [List the Products Ordered in a Period](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1327.md)
+      
