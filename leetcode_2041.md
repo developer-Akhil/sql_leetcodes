@@ -79,3 +79,11 @@ Explanation:
 - Candidate 6: The total score is 10, and they have ten years of experience. We do not include them in the result table because the score is not good enough.
 - Candidate 8: The total score is 6, and they have zero years of experience. We do not include them in the result table because of their years of experience and the score.
 ```
+
+# Solution
+
+```
+select c.candidate_id  from leetcode.candidates_2041 c 
+join leetcode.rounds_2041 r on c.interview_id = r.interview_id where c.years_of_exp > 2
+group by c.interview_id having sum(r.score) > 15;
+```
