@@ -71,3 +71,8 @@ Explanation: Both employees with id 1 and 3 have the most experience among the e
 ```
 
 # Solutions
+```
+select project_id,employee_id from (
+select project_id,p.employee_id as employee_id, experience_years, dense_rank() over(partition by project_id order by experience_years desc ) rnk
+from project p  join employee e on  p.employee_id = e.employee_id) tbl where tbl.rnk = 1;
+```
