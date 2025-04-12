@@ -5,15 +5,24 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 175 [Combine Two Tables](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_175.md)
 
 176 [Second Highest Salary](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_176.md)
+
 177 [Nth Highest Salary](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_177.md)
+
 178 [Rank Scores](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_178.md)
-180. Consecutive Numbers
-181. Employees Earning More Than Their Managers
-182. Duplicate Emails
-183. Customers Who Never Order
-184. Department Highest Salary
-196. Delete Duplicate Emails
-197. Rising Temperature
+
+180 [Consecutive Numbers](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_180.md)
+
+181 [Employees Earning More Than Their Managers](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_181.md)
+
+182 [Duplicate Emails](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_182.md)
+
+183 Customers Who Never Order
+
+184 Department Highest Salary
+
+196 Delete Duplicate Emails
+
+197 Rising Temperature
 
 1077 [Project Employees III](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1077.md) 
 
