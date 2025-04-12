@@ -2,11 +2,11 @@
 
 It contains details of the leetcode SQL queries, including their schema and table structure.
 
-175. [Combine Two Tables](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_175.md)
+175 [Combine Two Tables](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_175.md)
 
-176. [Second Highest Salary](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_176.md)
-177. Nth Highest Salary
-178. Rank Scores
+176 [Second Highest Salary](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_176.md)
+177 [Nth Highest Salary](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_177.md)
+178 [Rank Scores](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_178.md)
 180. Consecutive Numbers
 181. Employees Earning More Than Their Managers
 182. Duplicate Emails
