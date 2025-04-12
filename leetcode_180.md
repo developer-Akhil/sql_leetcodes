@@ -3,7 +3,7 @@
 https://leetcode.com/problems/consecutive-numbers/description/
     
 # Solution
-
+```
 with cte as (
 select * , lead(num,1) over() as next_val, lead(num,2) over() as next_val_2 from leetcode.logs_180)
 select num from cte
@@ -18,3 +18,4 @@ with cte as (
 
 )
 select distinct num ConsecutiveNums from cte where (num=num1) and (num=num2);
+```
