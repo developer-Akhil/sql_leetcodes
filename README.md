@@ -22,7 +22,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 196 Delete Duplicate Emails
 
-197 Rising Temperature
+197 [Rising Temperature](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_197.md)
 
 1077 [Project Employees III](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1077.md) 
 
