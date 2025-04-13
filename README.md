@@ -16,7 +16,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 182 [Duplicate Emails](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_182.md)
 
-183 Customers Who Never Order
+183 [Customers Who Never Order](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_183.md)
 
 184 Department Highest Salary
 
