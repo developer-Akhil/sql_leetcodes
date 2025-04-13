@@ -18,9 +18,9 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 183 [Customers Who Never Order](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_183.md)
 
-184 Department Highest Salary
+184 [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/)
 
-196 Delete Duplicate Emails
+196 [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/description/)
 
 197 [Rising Temperature](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_197.md)
 
