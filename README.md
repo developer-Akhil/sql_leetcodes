@@ -31,4 +31,6 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 1126 [Active Businesses](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1126.md) 
 
 1327 [List the Products Ordered in a Period](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1327.md)
+
+2175 [The Change in Global Rankings](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2175.md)
       
