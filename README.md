@@ -24,6 +24,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 197 [Rising Temperature](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_197.md)
 
+512 [Game Play Analysis II](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_512.md)
+
 1077 [Project Employees III](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1077.md) 
 
 1126 [Active Businesses](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1126.md) 
