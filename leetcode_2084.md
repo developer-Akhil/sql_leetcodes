@@ -19,7 +19,7 @@ The orders could be of type 0 or type 1.
 
 Write a solution to report all the orders based on the following criteria:
 
--> If a customer has at least one order of type 0, do not report any order of type 1 from that customer.
+-> If a customer has at least one order of type `0`, do not report any order of type `1` from that customer.
 
 -> Otherwise, report all the orders of the customer.
 
