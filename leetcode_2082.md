@@ -66,5 +66,5 @@ Customer 3 has one bill with an amount strictly greater than 500.
 # Solution 
 
 ```
-select count(distinct customer_id) as rich_count from leetcode.Store_2082 where amount > 500;
+select count(distinct customer_id) as rich_count from Store_2082 where amount > 500;
 ```
