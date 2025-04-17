@@ -27,6 +27,26 @@ Return the result table in any order.
 
 The result format is in the following example.
 
+**Schema**
+```
+CREATE TABLE leetcode.Orders_2084 (
+    order_id INT PRIMARY KEY,
+    customer_id INT,
+    order_type INT
+);
+
+-- Insert data into the Orders table
+INSERT INTO leetcode.Orders_2084 (order_id, customer_id, order_type) VALUES
+(1, 1, 0),
+(2, 1, 0),
+(11, 2, 0),
+(12, 2, 1),
+(21, 3, 1),
+(22, 3, 0),
+(31, 4, 1),
+(32, 4, 1);
+```
+
 Example 1:
 
 ```
@@ -63,3 +83,9 @@ Customer 4 has two orders of type 1. We return both of them.
 ```
 
 # Solution
+
+```
+with cte as (select *, Min(order_type) over(partition by customer_id) as min_order_type from Orders) 
+
+select order_id, customer_id , order_type from cte where (order_type + min_order_type <> 1);
+```
