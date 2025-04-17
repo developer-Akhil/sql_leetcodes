@@ -79,3 +79,13 @@ The airports with the most traffic are airports 1, 2, 3, and 4.
 ```
 
 # Solution
+```
+select airport_id from (
+select airport_id, dense_rank() over(order by sum(flights_count) desc) rnk  from ( 
+select departure_airport as airport_id, flights_count from flights
+
+union all
+
+select departure_airport as airport_id, flights_count from flights ) tb ) tb1 where rnk = 1
+```
+
