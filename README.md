@@ -38,6 +38,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 2041 [Accepted Candidates From the Interviews](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2041.md)
 
+2112 [The Airport With the Most Traffic](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2112.md)
+
 2159 [Order Two Columns Independently](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2159.md)
 
 2175 [The Change in Global Rankings](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2175.md)
