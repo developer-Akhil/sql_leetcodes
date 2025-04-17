@@ -38,6 +38,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 2041 [Accepted Candidates From the Interviews](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2041.md)
 
+2082 [2082. The Number of Rich Customers](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2082.md)
+
 2084 [Drop Type 1 Orders for Customers With Type 0 Orders](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2084.md)
 
 2112 [The Airport With the Most Traffic](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2112.md)
