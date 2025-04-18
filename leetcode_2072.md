@@ -27,6 +27,19 @@ Table: `California`
 In SQL, student_id is the primary key for this table.
 Each row contains information about the score of one student from California University in an exam.
 ```
+**Schema**
+
+```
+CREATE TABLE california (
+    student_id INT PRIMARY KEY,
+    score INT
+);
+
+
+INSERT INTO california (student_id, score) VALUES
+(2, 89),
+(3, 88);
+```
 
 There is a competition between New York University and California University. The competition is held between the same number of students 
 from both universities. The university that has more excellent students wins the competition. If the two universities have the same number of 
@@ -126,3 +139,16 @@ Both New York University and California University have 1 excellent student.
 ```
 
 # Solutions
+
+```
+with tbl_ny_cte as (
+select count(*) as cnt from newyork n where score >= 90
+), tbl_ca_cte as (
+select count(*) as cnt from california c where score >= 90
+)
+select 
+case when n.cnt > c.cnt then  'New York University'
+when n.cnt < c.cnt then 'California University'
+else 'No Winner' end as Winner 
+ from tbl_ny_cte n, tbl_ca_cte c;
+```
