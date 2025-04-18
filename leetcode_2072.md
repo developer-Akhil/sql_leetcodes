@@ -30,6 +30,15 @@ Each row contains information about the score of one student from California Uni
 **Schema**
 
 ```
+CREATE TABLE newyork (
+    student_id INT PRIMARY KEY,
+    score INT
+);
+
+INSERT INTO newyork (student_id, score) VALUES
+(1, 90),
+(2, 87);
+
 CREATE TABLE california (
     student_id INT PRIMARY KEY,
     score INT
