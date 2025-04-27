@@ -1,4 +1,6 @@
-# Discription
+**175. Combine Two Tables**
+
+# Description
 https://leetcode.com/problems/combine-two-tables/description/
 
 
