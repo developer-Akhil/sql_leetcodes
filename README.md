@@ -1,6 +1,6 @@
 # Leetcodes SQL Questions
 
-It contains details of the leetcode SQL queries, including their schema and table structure.
+It contains details of the leetcode SQL queries, including their schema and table structure for locked questions.
 
 175 [Combine Two Tables](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_175.md)
 
