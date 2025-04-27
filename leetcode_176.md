@@ -1,5 +1,5 @@
 **176. Second Highest Salary**
-# Discription
+# Description
 
 https://leetcode.com/problems/second-highest-salary/description/
   
