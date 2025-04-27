@@ -1,6 +1,6 @@
 **182. Duplicate Emails**
 
-# Descirpation
+# Description
 
 https://leetcode.com/problems/duplicate-emails/description/
 
