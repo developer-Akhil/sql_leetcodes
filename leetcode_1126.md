@@ -3,6 +3,7 @@
 # Description
 Table: `Events`
 
+
 ```
 +---------------+---------+
 | Column Name   | Type    |
