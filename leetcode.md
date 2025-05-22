@@ -1,5 +1,7 @@
- # Description
+2020. Number of Accounts That Did Not Stream 🔒
 
+
+ # Description
 
 Table: `Subscriptions`
 
@@ -68,3 +70,7 @@ Output:
 Explanation: Users 4 and 9 did not stream in 2021.
 User 11 did not subscribe in 2021.
 ```
+
+# Solution
+
+
