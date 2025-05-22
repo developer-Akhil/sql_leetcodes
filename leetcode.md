@@ -1,10 +1,10 @@
  # Description
 
 
-Table: 'Subscriptions'
+Table: `Subscriptions`
 
-  '''
-  +-------------+------+
+``` 
++-------------+------+
 | Column Name | Type |
 +-------------+------+
 | account_id  | int  |
@@ -14,10 +14,10 @@ Table: 'Subscriptions'
 account_id is the primary key column for this table.
 Each row of this table indicates the start and end dates of an account's subscription.
 Note that always start_date < end_date.
-'''
-Table: 'Streams'
+```
+Table: `Streams`
 
-'''
+```
 +-------------+------+
 | Column Name | Type |
 +-------------+------+
@@ -28,14 +28,14 @@ Table: 'Streams'
 session_id is the primary key column for this table.
 account_id is a foreign key from the Subscriptions table.
 Each row of this table contains information about the account and the date associated with a stream session.
-'''
+```
 
 Write an SQL query to report the number of accounts that bought a subscription in 2021 but did not have any stream session.
 The query result format is in the following example.
 
 Example 1:
 
-'''
+```
 Input: 
 Subscriptions table:
 +------------+------------+------------+
@@ -67,4 +67,4 @@ Output:
 +----------------+
 Explanation: Users 4 and 9 did not stream in 2021.
 User 11 did not subscribe in 2021.
-'''
+```
