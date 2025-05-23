@@ -1,4 +1,4 @@
-**1126. Active Businesses**
+**1126. Active Businesses 🔒**
 
 # Description
 Table: `Events`
