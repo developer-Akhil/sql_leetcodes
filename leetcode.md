@@ -73,4 +73,9 @@ User 11 did not subscribe in 2021.
 
 # Solution
 
+```
+select count(distinct sub.account_id) as accounts_count from Subscriptions sub left join streams st using(account_id) 
+where year(sub.end_date) >= '2021' and year(st.stream_date) <> '2021';
+
+```
 
