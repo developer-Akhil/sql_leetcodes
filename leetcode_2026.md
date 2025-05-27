@@ -60,3 +60,9 @@ Problems 7, 10, 11, and 13 are low-quality problems because their like percentag
 
 # Solutions
 
+```
+select problem_id from (
+select problem_id, (likes/(likes + dislikes) * 100 < 60) as flag  from  Problems) tbl  where flag = 1
+order by problem;
+```
+
