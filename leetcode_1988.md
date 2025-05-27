@@ -63,7 +63,8 @@ Exam table:
 | 749   | 76            |
 | 744   | 100           |
 +-------+---------------+
-**Output**:
+
+Output:
 +-----------+-------+
 | school_id | score |
 +-----------+-------+
@@ -72,6 +73,7 @@ Exam table:
 | 10        | 749   |
 | 11        | 744   |
 +-----------+-------+
+
 Explanation: 
 - School 5: The school's capacity is 48. Choosing 975 as the min score requirement, the school will get at most 10 applications, which is within capacity.
 - School 10: The school's capacity is 99. Choosing 844 or 749 as the min score requirement, the school will get at most 76 applications, which is within capacity. We choose the smallest of them, which is 749.
