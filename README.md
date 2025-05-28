@@ -36,6 +36,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1393 [Capital Gain/Loss](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1393.md)
 
+1978 [Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/)
+
 1988 [Find Cutoff Score for Each School](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1988.md)
 
 2026 [Low-Quality Problems](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2026.md)
