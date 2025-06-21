@@ -5,6 +5,7 @@
 https://leetcode.com/problems/queries-quality-and-percentage/description/
 
 
+
 # Solution
 
 ```
