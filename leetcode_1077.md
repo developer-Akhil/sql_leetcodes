@@ -70,6 +70,7 @@ Employee table:
 Explanation: Both employees with id 1 and 3 have the most experience among the employees of the first project. For the second project, the employee with id 1 has the most experience.
 ```
 
+
 # Solutions
 ```
 select project_id,employee_id from (
