@@ -26,6 +26,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 512 [Game Play Analysis II](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_512.md)
 
+603 [Consecutive Available Seats](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_603.md)
+
 626 [Exchange Seats](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_626.md)
 
 1077 [Project Employees III](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1077.md) 
