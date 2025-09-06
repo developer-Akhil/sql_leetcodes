@@ -40,7 +40,9 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1795 [Rearrange Products Table](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1795.md)
 
-1978 [Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/)
+1978 [Employees Whose Manager Left the Company](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1978.md)
+
+1934 [Confirmation Rate](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1934.md)
 
 1988 [Find Cutoff Score for Each School](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1988.md)
 
