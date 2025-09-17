@@ -77,3 +77,11 @@ For the sample data above, your query should return the following result.
 **Follow-up**:
 Can you write a query to return the accept rate but for every month?
 How about the cumulative accept rate for every day?
+
+# Solution
+
+select ifnull (round(
+((select count(*) from 
+(select distinct requester_id,accepter_id from leetcode.request_accepted_597) as accepted_request)/
+(select count(*) from 
+(select distinct sender_id,send_to_id from leetcode.friend_request_597) as request_send)),2),0.00) as accept_rate;
