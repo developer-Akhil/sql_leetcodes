@@ -63,7 +63,6 @@ Table: request_accepted
 
 ```
 Write a query to find the overall acceptance rate of requests rounded to 2 decimals, which is the number of acceptance divide the number of requests.
-Find the overall acceptance rate of requests, which is the number of acceptance divided by the number of requests. Return the answer rounded to 2 decimals places.
 
 For the sample data above, your query should return the following result.
 
