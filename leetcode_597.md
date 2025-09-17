@@ -83,7 +83,7 @@ How about the cumulative accept rate for every day?
 ```
 select ifnull (round(
 ((select count(*) from 
-(select distinct requester_id,accepter_id from leetcode.request_accepted_597) as accepted_request)/
+(select distinct requester_id,accepter_id from request_accepted) as accepted_request)/
 (select count(*) from 
-(select distinct sender_id,send_to_id from leetcode.friend_request_597) as request_send)),2),0.00) as accept_rate;
+(select distinct sender_id,send_to_id from friend_request) as request_send)),2),0.00) as accept_rate;
 ```
