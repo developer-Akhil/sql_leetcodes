@@ -28,7 +28,6 @@ Table: ``RequestAccepted``
 This table may contain duplicates (In other words, there is no primary key for this table in SQL).
 This table contains the ID of the user who sent the request, the ID of the user who received the request, and the date when the request was accepted.
 ```
-Find the overall acceptance rate of requests, which is the number of acceptance divided by the number of requests. Return the answer rounded to 2 decimals places.
 
 **Note that**:
 
@@ -64,7 +63,8 @@ Table: request_accepted
 
 ```
 Write a query to find the overall acceptance rate of requests rounded to 2 decimals, which is the number of acceptance divide the number of requests.
- 
+Find the overall acceptance rate of requests, which is the number of acceptance divided by the number of requests. Return the answer rounded to 2 decimals places.
+
 For the sample data above, your query should return the following result.
 
 ```
