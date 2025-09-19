@@ -26,11 +26,11 @@ Each term of the LHS should follow the format "<sign><fact>X^<pow>" where: \
 <fact> is the absolute value of the factor. \
 <pow> is the value of the power. \
 If the power is 1, do not add "^<pow>". \
-For example, if power = 1 and factor = 3, the term will be "+3X". \
+For example, if power = 1 and factor = 3, the term will be "+3X".
 
 If the power is 0, add neither "X" nor "^<pow>". \
-For example, if power = 0 and factor = -3, the term will be "-3". \
-The powers in the LHS should be sorted in descending order. \
+For example, if power = 0 and factor = -3, the term will be "-3".
+The powers in the LHS should be sorted in descending order.
 
 Write an SQL query to build the equation.\
 The query result format is in the following example.
