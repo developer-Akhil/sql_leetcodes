@@ -77,9 +77,10 @@ Follow up: What will be changed in your solution if the power is not a primary k
 
 # Solutions
 
-
+```
 with cte1 as (
 select *,if(factor>0, concat('+',factor), factor) as fws from Terms),
 cte2 as (select *, case when power = 1 then concat(fws,'X')
 when power = 0 then fws else concat(fws,'X^',power) end as eq from cte1)
 select concat(group_concat(eq order by power desc separator ''),'=0') as eq from cte2;
+```
