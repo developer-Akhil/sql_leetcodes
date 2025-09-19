@@ -26,6 +26,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 512 [Game Play Analysis II](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_512.md)
 
+579 Find Cumulative Salary of an Employee(https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_579.md)
+
 597 [Friend Requests I: Overall Acceptance Rate](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_597.md)
 
 603 [Consecutive Available Seats](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_603.md)
