@@ -47,3 +47,12 @@ Output:
 ```
 
 # Solution
+
+```
+select first_col,second_col from (
+select first_col, row_number() over(order by first_col) rnk from data) tbl1 
+join
+(select second_col, row_number() over(order by second_col desc) rnk from data) tbl2
+on tbl1.rnk = tbl2.rnk;
+
+```
