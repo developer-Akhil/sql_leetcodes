@@ -2,11 +2,19 @@
 
 # Description
 
-The Employee table holds the salary information in a year.
+Write a solution to calculate the cumulative salary summary for every employee in a single unified table.
 
-Write a SQL to get the cumulative sum of an employee's salary over a period of 3 months but exclude the most recent month.SQL courses
+The cumulative salary summary for an employee can be calculated as follows:
 
-The result should be displayed by 'Id' ascending, and then by 'Month' descending.
+For each month that the employee worked, sum up the salaries in that month and the previous two months. This is their 3-month sum for that month. If an employee did not work for the company in previous months, their effective salary for those months is 0.
+
+Do not include the 3-month sum for the most recent month that the employee worked for in the summary.
+
+Do not include the 3-month sum for any month the employee did not work.
+
+Return the result table ordered by id in ascending order. In case of a tie, order it by month in descending order.
+
+The result format is in the following example.
 
 **Example
 Input**
