@@ -25,9 +25,8 @@ Write a solution to find all active businesses.
 
 Return the result table in any order.
 
-The result format is in the following example.
-Example 1:
-
+The result format is in the following example.\
+**Example 1:**
 ```
 Input: 
 Events table:
