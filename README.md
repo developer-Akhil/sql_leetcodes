@@ -40,6 +40,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1211 [Queries Quality and Percentage](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1211.md)
 
+1241 [Number of Comments per Post](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1241.md)
+
 1327 [List the Products Ordered in a Period](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1327.md)
 
 1407 [Top Travellers](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1407.md)
