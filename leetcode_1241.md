@@ -57,6 +57,10 @@ The comment with id 6 is a comment on a deleted post with id 7 so we ignored it.
 
 # Solution 
 
+select post.sub_id as post_id, ifnull(com.cnt,0) as number_of_comment from
+(select distinct sub_id from submissions where parent_id is null) post left join
+( select parent_id, count(distinct sub_id) as cnt from submissions where parent_id is not null group by parent_id) as com 
+on post.sub_id = com.parent_id;
 
 
 
