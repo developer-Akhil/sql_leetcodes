@@ -40,6 +40,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1082 [Sales Analysis I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1082.md)
 
+1098 [Unpopular Books](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1098.md)
+
 1126 [Active Businesses](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1126.md) 
 
 1211 [Queries Quality and Percentage](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1211.md)
