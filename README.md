@@ -20,6 +20,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 184 [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/)
 
+185 [Department Top Three Salaries](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_185.md)
+
 196 [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/description/)
 
 197 [Rising Temperature](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_197.md)
