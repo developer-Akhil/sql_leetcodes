@@ -38,7 +38,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1077 [Project Employees III](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1077.md) 
 
-1082 [1082. Sales Analysis I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1082.md)
+1082 [Sales Analysis I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1082.md)
 
 1126 [Active Businesses](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1126.md) 
 
