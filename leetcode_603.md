@@ -27,8 +27,8 @@ Your query should return the following result for the sample case above.
 | 5       |
 
 ```
-Note:
-The seat_id is an auto increment int, and free is bool (‘1’ means free, and ‘0’ means occupied.).
+Note:\
+The seat_id is an auto increment int, and free is bool (‘1’ means free, and ‘0’ means occupied.).\
 Consecutive available seats are more than 2(inclusive) seats consecutively available.
 
 
