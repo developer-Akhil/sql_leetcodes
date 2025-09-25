@@ -104,3 +104,13 @@ New Zealand did not gain or lose points and their rank did not change.
 ```
 
 # Solution
+
+```
+select team_id, name, cast(rnk2 as SIGNED) - cast(rnk1 as SIGNED) as rank_diff
+from ( select team_id, name, points, row_number() over(order by points, name desc) as rnk1, 
+points + points_change as point_changes, 
+row_number() over(order by points + points_change, name desc) as rnk2 from TeamPoints t
+join PointsChange p on t.team_id = p.team_id) tbl order by team_id; 
+
+```
+
