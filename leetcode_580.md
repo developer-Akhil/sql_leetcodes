@@ -62,3 +62,8 @@ The Output should be:
 ```
 
 # Solution
+
+```
+select dept_name, count(s.dept_id) student_number  from leetcode.student_580 s right join department d using(dept_id)
+group by dept_name;
+```
