@@ -62,5 +62,18 @@ Account 2:
 ```
 select account_id , day, sum(case when type = 'Deposit' then amount else -amount) over(partition by account_id order by day )
 as balance from Transactions;
+
+or
+
+SELECT
+    account_id,
+    day,
+    sum(if(type = 'Deposit', amount, -amount)) OVER (
+        PARTITION BY account_id
+        ORDER BY day
+    ) AS balance
+FROM Transactions
+ORDER BY 1, 2;
+
 ```
 
