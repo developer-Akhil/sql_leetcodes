@@ -59,4 +59,8 @@ Account 2:
 ```
 
 # Solution
+```
+select account_id , day, sum(case when type = 'Deposit' then amount else -amount) over(partition by account_id order by day )
+as balance from Transactions;
+```
 
