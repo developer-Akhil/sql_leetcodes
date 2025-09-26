@@ -60,6 +60,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1741 [Find Total Time Spent by Each Employee](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1741.md)
 
+1741 [Grand Slam Titles](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1783.md)
+
 1795 [Rearrange Products Table](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1795.md)
 
 1978 [Employees Whose Manager Left the Company](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1978.md)
