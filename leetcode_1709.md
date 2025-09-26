@@ -57,4 +57,13 @@ For the third user, the only window in question is between dates 2020-11-11 and 
 
 # Solution
 
+```
+with cte as (select *, Lead(visit_date,1) over(partition by user_id order by visit_date) as next_date from uservisits),
+cte2 as (select user_id, case when next_date is not null then dateDiff(next_date,visit_date) else datediff(cast('2021-01-01' as date),visit_date) as
+window from cte)
+select user_id, max(window) as biggest_window from cte2 group by user_id order by user_id
+```
+
+
+ 
 
