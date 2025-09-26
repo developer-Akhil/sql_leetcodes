@@ -54,13 +54,15 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1327 [List the Products Ordered in a Period](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1327.md)
 
+1393 [Capital Gain/Loss](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1393.md)
+
 1407 [Top Travellers](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1407.md)
 
-1393 [Capital Gain/Loss](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1393.md)
+1709 [Biggest Window Between Visits](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1709.md)
 
 1741 [Find Total Time Spent by Each Employee](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1741.md)
 
-1741 [Grand Slam Titles](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1783.md)
+1783 [Grand Slam Titles](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1783.md)
 
 1795 [Rearrange Products Table](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1795.md)
 
