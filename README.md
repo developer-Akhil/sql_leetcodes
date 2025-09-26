@@ -70,6 +70,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 2026 [Low-Quality Problems](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2026.md)
 
+2066 [Account Balance](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2066.md)
+
 2072 [The Winner University](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2072.md)
 
 2041 [Accepted Candidates From the Interviews](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2041.md)
