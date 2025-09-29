@@ -52,3 +52,9 @@ Users 3 and 4 had 4 calls and the total duration is 999 (100 + 200 + 200 + 499).
 
 # Solution
 
+```
+select new_from_id person1 , new_from_id person2, count(*) as call_count , sum(duration) as total_duration   from (
+select case when from_id < to_id then to_id else from_id end as new_from_id,
+case when from_id > to_id then to_id else from_id end as new_to_id, duration  from calls) tbl
+group by new_from_id, new_from_id;
+```
