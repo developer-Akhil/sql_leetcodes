@@ -58,6 +58,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1407 [Top Travellers](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1407.md)
 
+1699 [Number of Calls Between Two Persons](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1699.md)
+
 1709 [Biggest Window Between Visits](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1709.md)
 
 1741 [Find Total Time Spent by Each Employee](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1741.md)
