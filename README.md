@@ -62,6 +62,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1511 [Customer Order Frequency](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1511.md)
 
+1517 [Find Users With Valid E-Mails](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1517.md)
+
 1699 [Number of Calls Between Two Persons](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1699.md)
 
 1709 [Biggest Window Between Visits](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1709.md)
