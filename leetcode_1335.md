@@ -71,3 +71,18 @@ Singing is performed by 2 friends (Victor J. and Jade W.)
 ```
 
 # Solution
+
+```
+WITH
+  RankedFriends AS (
+    SELECT
+      activity,
+      dense_RANK() OVER(ORDER BY COUNT(id) ASC) AS rank_asc,
+      dense_RANK() OVER(ORDER BY COUNT(id) DESC) AS rank_desc
+    FROM Friends
+    GROUP BY 1
+  )
+SELECT activity
+FROM RankedFriends
+WHERE rank_asc > 1 AND rank_desc > 1;
+```
