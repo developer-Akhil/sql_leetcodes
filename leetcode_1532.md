@@ -85,3 +85,11 @@ Marwan ordered only one time.
 We sort the result table by customer_name in ascending order, by customer_id in ascending order and by order_date in descending order in case of a tie.
 
 ```
+
+# Solution
+
+```
+select name, order_date,customer_id, order_id from (
+select name, order_date, order_id, c.customer_id, dense_rank() over(partition by name order by order_date desc) rnk from Customers c 
+join Orders o on c.customer_id = o.customer_id) tbl where rnk <=3 order by customer_name, customer_id, order_date desc;
+```
