@@ -34,7 +34,7 @@ This table contains information about the users.
 
 Write an SQL query to report the ``name`` and the ``mail`` of all interview candidates. A user is an interview candidate if at least one of these two conditions is true:
 
-1. The user won any medal in three or more consecutive contests.\
+1. The user won any medal in three or more consecutive contests.
 2. The user won the gold medal in three or more different contests (not necessarily consecutive).\
 Return the result table in any order.
 
