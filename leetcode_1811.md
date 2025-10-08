@@ -86,3 +86,28 @@ Quarz won a medal in 5 consecutive contests (190, 191, 192, 193, and 194), so we
 
 1. What if the first condition changed to be "any medal in n or more consecutive contests"? How would you change your solution to get the interview candidates? Imagine that n is the parameter of a stored procedure.
 2. Some users may not participate in every contest but still perform well in the ones they do. How would you change your solution to only consider contests where the user was a participant? Suppose the registered users for each contest are given in another table.
+
+
+# Solution
+
+```
+select mail, name from (
+select mail,name, medal, count(*) rnk  from (
+select user_id,mail,name, contest_id, "gold" as medal from Contests c join Users u on u.user_id = c.gold_medal
+union all
+select user_id,mail,name, contest_id, "silver" as medal from Contests c join Users u on u.user_id = c.silver_medal
+union all
+select user_id,mail,name, contest_id, "bronze" as medal from Contests c join Users u on u.user_id = c.bronze_medal) tbl
+ group by mail, name, medal order by user_id,contest_id, count(*)) tbl1 where medal = "gold" and rnk = 3
+
+union
+
+select distinct mail ,name from (
+select user_id,mail,name, contest_id, lead(contest_id,1) over(partition by name) - 1 as prev, lead(contest_id,2) over(partition by name) - 2 prev2prev,medal from (
+select user_id,mail,name, contest_id, "gold_medal" as medal from Contests c join Users u on u.user_id = c.gold_medal
+union all
+select user_id,mail,name, contest_id, "silver_medal" as medal from Contests c join Users u on u.user_id = c.silver_medal
+union all
+select user_id,mail,name, contest_id, "bronze_medal" as medal from Contests c join Users u on u.user_id = c.bronze_medal order by name, contest_id) tbl) tbl1
+where contest_id = prev and contest_id=prev2prev;
+```
