@@ -80,6 +80,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1811 [Find Interview Candidates](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1811.md)
 
+1821 [Find Customers With Positive Revenue this Year](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1821.md)
+
 1978 [Employees Whose Manager Left the Company](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1978.md)
 
 1934 [Confirmation Rate](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1934.md)
