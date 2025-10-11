@@ -49,3 +49,11 @@ Customer 3 has no revenue in year 2021.
 Customer 4 has revenue equal to 20 in year 2021.
 Thus only customers 1 and 4 have postive revenue in year 2021.
 ```
+
+# Solution
+
+```
+SELECT customer_id
+FROM Customers
+WHERE year = 2021 AND revenue > 0;
+```
