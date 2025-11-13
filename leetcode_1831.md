@@ -51,4 +51,8 @@ We order the result table by transaction_id after collecting these IDs.
 
 # Solution
 
+```
+select transaction_id from (
+select transaction_id,day(day), dense_rank() over(partition by day(day) order by amount desc) rnk , amount from transactions) tbl where rnk = 1 order by transaction_id;
+```
 
