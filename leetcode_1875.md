@@ -62,3 +62,12 @@ The team IDs are assigned as follows (based on salary ranking, lowest first):
 Juan's salary of 6100 is not included in the ranking because they are not on a team.
 
 ```
+
+# Solution
+
+```
+with cte as 
+(select *, count(employee_id) over(partition by salary) as num_of_emp_in_that_group from employees)
+select employee_id, name, salary, dense_rank() over(order by salary) as team_id from cte where num_of_emp_in_that_group >=2;
+
+```
