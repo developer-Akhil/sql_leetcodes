@@ -86,6 +86,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1831 [Maximum Transaction Each Day](https://github.com/developer-Akhil/sql_leetcodes/edit/main/leetcode_1831.md)
 
+1875 [Group Employees of the Same Salary](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1875.md)
+
 1978 [Employees Whose Manager Left the Company](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1978.md)
 
 1934 [Confirmation Rate](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1934.md)
