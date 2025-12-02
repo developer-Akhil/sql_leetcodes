@@ -70,7 +70,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1532 [The Most Recent Three Orders](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1532.md)
 
-1571 [1571. Warehouse Manager](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1571.md)
+1571 [Warehouse Manager](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1571.md)
 
 1699 [Number of Calls Between Two Persons](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1699.md)
 
