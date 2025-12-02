@@ -34,8 +34,9 @@ Each row of this table contains the information about the product dimensions (Wi
 
 Write an SQL query to report, How much cubic feet of volume does the inventory occupy in each warehouse.
 
-warehouse_name
-volume
+* warehouse_name
+* volume
+
 Return the result table in any order.
 
 The query result format is in the following example.
