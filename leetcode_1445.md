@@ -54,3 +54,17 @@ Day 2020-05-04, 15 apples and 16 oranges were sold (Difference 15 - 16 = -1).
 ```
 
 # Solution
+```
+with fruit_sales_analysis as ( select s.sale_date, case when fruit = 'apples' then s.sold_num else 0 end as apples_sold_num,
+case when fruit = 'oranges' then s.sold_num else 0 end as oranges_sold_num from sales s)
+select sale_date, sum(apples_sold_num - oranges_sold_num) from fruit_sales_analysis group by sale_date;
+
+or
+
+SELECT S.sale_date ,SUM(CASE S.fruit
+			WHEN 'apples' THEN S.sold_num
+			WHEN 'oranges' THEN - S.sold_num
+			ELSE 0 END) AS diff
+FROM Sales AS S GROUP BY S.sale_date;
+
+```
