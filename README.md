@@ -62,6 +62,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1407 [Top Travellers](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1407.md)
 
+1445 [Apples & Oranges](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1445.md)
+
 1501 [Countries You Can Safely Invest In](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1501.md)
 
 1511 [Customer Order Frequency](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1511.md)
