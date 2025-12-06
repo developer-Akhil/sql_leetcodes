@@ -1,7 +1,7 @@
 **602. Friend Requests II: Who Has the Most Friends**
 
 
-# Descerption
+# Description
 
 https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/description/
 
