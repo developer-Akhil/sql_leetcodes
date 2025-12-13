@@ -45,3 +45,10 @@ Result table:
 | 6    |
 +------+
 ```
+
+# Solution
+
+```
+select viewer_id as id from (
+select viewer_id, count(distinct author_id)  cnt  from Views group by view_date) tbl where cnt > 1;
+```
