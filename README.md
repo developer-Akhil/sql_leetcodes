@@ -84,6 +84,10 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1571 [Warehouse Manager](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1571.md)
 
+1683 [Invalid Tweets](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1683.md)
+
+1693 [Daily Leads and Partners](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1693.md)
+
 1699 [Number of Calls Between Two Persons](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1699.md)
 
 1709 [Biggest Window Between Visits](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1709.md)
