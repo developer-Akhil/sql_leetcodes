@@ -5,7 +5,7 @@
 Several friends at a cinema ticket office would like to reserve consecutive available seats.
 Can you help to query all the consecutive available seats order by the seat_id using the following cinema table?
 
-cinema table
+``Cinema`` table
 
 ```
 | seat_id | free |
