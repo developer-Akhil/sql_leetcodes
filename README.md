@@ -48,6 +48,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1126 [Active Businesses](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1126.md) 
 
+1148 [Article Views I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1148.md)
+
 1173 [Immediate Food Delivery I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1173.md)
 
 1211 [Queries Quality and Percentage](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1211.md)
