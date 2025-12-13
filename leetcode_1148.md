@@ -1,6 +1,6 @@
 **1148. Article Views I**
 
-# Discription
+# Description
 
 https://leetcode.com/problems/article-views-i/description/
 
