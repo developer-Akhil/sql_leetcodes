@@ -46,6 +46,8 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 
 1098 [Unpopular Books](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1098.md)
 
+1148 [Article Views I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1148.md)
+
 1149 [1149. Article Views II](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1149.md)
 
 1126 [Active Businesses](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1126.md) 
