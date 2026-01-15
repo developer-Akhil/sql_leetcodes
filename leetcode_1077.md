@@ -31,9 +31,7 @@ Each row of this table contains information about one employee.
 ```
 
 Write a solution to report the most experienced employees in each project. In case of a tie, report all employees with the maximum number of experience years.
-
 Return the result table in any order.
-
 The result format is in the following example.
 
 **Example 1:**
