@@ -54,4 +54,3 @@ select
 round((select count(*) from leetcode.Deliveries_1173 where order_date = customer_pref_delivery_date)/
 (select count(*) from Deliveries), 2) as immediate_percentage ;
 ```
-
