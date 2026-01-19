@@ -91,3 +91,12 @@ Average weather_state in China in November is (16 + 18 + 21) / 3 = 18.333 so wea
 Average weather_state in Morocco in November is (25 + 27 + 31) / 3 = 27.667 so weather type is Hot.
 We know nothing about average weather_state in Spain in November so we don't include it in the result table.
 ```
+
+# Solution
+
+```
+select country_name, case when avg <= 15 then 'Cold' 
+when avg <= 25 then 'Hot' else 'Warm' end as weather_type 
+from ( select w.country_id, country_name, avg(weather_state) over(partition by country_id) as avg , day  
+from Weather w join Countries c on w.country_id = c.country_id) tbl where MONTH(day) = 11  group by country_name;
+```
