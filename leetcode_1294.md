@@ -40,7 +40,7 @@ Return result table in any order.
 The query result format is in the following example:
 
 ```
-Countries ``table``:
+Countries table:
 +------------+--------------+
 | country_id | country_name |
 +------------+--------------+
@@ -52,7 +52,7 @@ Countries ``table``:
 | 9          | Spain        |
 +------------+--------------+
 
-Weather ``table``:
+Weather table:
 +------------+---------------+------------+
 | country_id | weather_state | day        |
 +------------+---------------+------------+
