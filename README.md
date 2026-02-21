@@ -28,7 +28,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 1149 [Article Views II](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1149.md)\
 1126 [Active Businesses](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1126.md)\
 1148 [Article Views I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1148.md)\
-1141 [User Activity for the Past 30 Days I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1141.md)
+1141 [User Activity for the Past 30 Days I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1141.md)\
 1173 [Immediate Food Delivery I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1173.md)\
 1204 [Last Person to Fit in the Bus](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1204.md)\
 1211 [Queries Quality and Percentage](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1211.md)\
@@ -66,7 +66,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 2082 [The Number of Rich Customers](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2082.md)\
 2084 [Drop Type 1 Orders for Customers With Type 0 Orders](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2084.md)\
 2112 [The Airport With the Most Traffic](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2112.md)\
-2118 [Build the Equation](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2118.md)\
+2118 [Build the Equation](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2118.md)
 2159 [Order Two Columns Independently](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2159.md)\
 2175 [The Change in Global Rankings](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2175.md)\
 
