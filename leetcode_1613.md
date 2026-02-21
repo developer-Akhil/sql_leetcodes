@@ -25,7 +25,7 @@ The result format is in the following example.
 
 Example 1:
 ```
-**Input**: 
+Input: 
 Customers table:
 +-------------+---------------+
 | customer_id | customer_name |
@@ -35,7 +35,7 @@ Customers table:
 | 5           | Charlie       |
 +-------------+---------------+
 
-**Output**: 
+Output: 
 +-----+
 | ids |
 +-----+
@@ -47,3 +47,12 @@ The maximum customer_id present in the table is 5, so in the range [1,5], IDs 2 
 ```
 
 # Solution
+```
+with recursive cte as
+( 
+select 1 as ids
+union 
+select ids + 1
+from cte where ids < (select max(customer_id) from leetcode.customers_1613) )
+select * from cte where ids not in (select customer_id from leetcode.customers_1613);
+```
