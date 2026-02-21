@@ -34,6 +34,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 1211 [Queries Quality and Percentage](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1211.md)\
 1241 [Number of Comments per Post](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1241.md)\
 1285 [Find the Start and End Number of Continuous Ranges](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1285.md)\
+1303 [Find the Team Size]()
 1327 [List the Products Ordered in a Period](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1327.md)\
 1355 [Activity Participants](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1335.md)\
 1393 [Capital Gain/Loss](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1393.md)\
@@ -67,5 +68,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 2112 [The Airport With the Most Traffic](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2112.md)\
 2118 [Build the Equation](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2118.md)\
 2159 [Order Two Columns Independently](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2159.md)\
-2175 [The Change in Global Rankings](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2175.md)
+2175 [The Change in Global Rankings](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2175.md)\
+
+
 
