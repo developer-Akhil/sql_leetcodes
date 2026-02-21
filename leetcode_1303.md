@@ -51,3 +51,7 @@ Employees with Id 5,6 are part of a team with team_id = 9.
 ```
 
 # Solutions
+```
+select employee_id , team_size from ( select employee_id, count(employee_id) over(partition by team_id order by team_id)
+team_size from employee) tbl order by employee_id;
+```
