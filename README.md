@@ -66,7 +66,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 2082 [The Number of Rich Customers](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2082.md)\
 2084 [Drop Type 1 Orders for Customers With Type 0 Orders](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2084.md)\
 2112 [The Airport With the Most Traffic](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2112.md)\
-2118 [Build the Equation](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2118.md)
+2118 [Build the Equation](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2118.md)\
 2159 [Order Two Columns Independently](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2159.md)\
 2175 [The Change in Global Rankings](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_2175.md)\
 
