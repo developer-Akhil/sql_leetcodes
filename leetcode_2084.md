@@ -22,8 +22,7 @@ Write a solution to report all the orders based on the following criteria:
 * If a customer has at least one order of type `0`, do not report any order of type `1` from that customer.
 * Otherwise, report all the orders of the customer.
 
-Return the result table in any order.
-
+Return the result table in any order.\
 The result format is in the following example.
 
 **Schema**
