@@ -84,6 +84,5 @@ Customer 4 has two orders of type 1. We return both of them.
 
 ```
 with cte as (select *, Min(order_type) over(partition by customer_id) as min_order_type from Orders) 
-
 select order_id, customer_id , order_type from cte where (order_type + min_order_type <> 1);
 ```
