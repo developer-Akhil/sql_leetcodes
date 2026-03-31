@@ -63,4 +63,9 @@ Result table is ordered by the ctr. in case of a tie we order them by ad_id
 ```
 
 # Solution
-
+```
+SELECT
+  ad_id,  IFNULL( ROUND(  SUM(action = 'Clicked') * 100 /(SUM(action = 'Clicked') + SUM(action = 'Viewed')), 2),0) AS ctr
+FROM leetcode.ads_1322 GROUP BY 1
+ORDER BY ctr DESC, ad_id;
+```
