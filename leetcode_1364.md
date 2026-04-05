@@ -1,5 +1,7 @@
 **1364. Number of Trusted Contacts of a Customer**
 
+# Description
+
 Table: ``Customers``
 
 ```
@@ -104,5 +106,17 @@ Alex has one contact and it is a trusted contact (Alice).
 John doesn't have any contacts.
 
 ```
+
+# Solution
+
+```
+select i.invoice_id, cust.customer_name, i.price,
+  count(cont.user_id) as contacts_cnt, count(cust.email) as trusted_contacts_cnt
+from leetcode.Invoices_1364 i inner join leetcode.Customers_1364 as cust ON (i.user_id = cust.customer_id)
+                left join leetcode.Contacts_1364 as cont on (cust.customer_id = cont.user_id)
+                left join leetcode.Customers_1364 as cust2 on (cont.contact_email = cust2.email)
+group by 1 order by 1;
+```
+
 
 
