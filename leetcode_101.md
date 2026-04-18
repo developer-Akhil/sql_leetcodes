@@ -10,4 +10,5 @@ https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/
 
 ```
 select unique_id, name from employees emp left join EmployeeUNI emp_uni on emp.id = emp_uni.id ;
+
 ```
