@@ -10,3 +10,4 @@ select firstName, lastName, city, state from
 leetcode.Person_175 p left join leetcode.Address_175 a
 on p.personId = a.personId; 
 ```
+
