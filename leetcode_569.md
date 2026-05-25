@@ -95,5 +95,10 @@ For company C, the rows sorted are as follows:
 
 **Follow up**: Could you solve it without using any built-in or window functions?
 
-
 # Solutions
+
+```
+with t as (
+select id, company, salary, row_number() over(partition by company order by salary asc) as rnk, count(id) over (partition by company) as n from leetcode.employee_569)
+select id, company, salary from t where rnk >= n/2.0 and rnk <= n/2.0+1;
+```
