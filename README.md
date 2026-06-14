@@ -43,6 +43,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 1364 [Number of Trusted Contacts of a Customer](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1364.md)\
 1378 [Replace Employee ID With The Unique Identifier](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_101.md)\
 1355 [Activity Participants](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1335.md)\
+1378 [Replace Employee ID With The Unique Identifier](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1378.md)\
 1393 [Capital Gain/Loss](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1393.md)\
 1407 [Top Travellers](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1407.md)\
 1445 [Apples & Oranges](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1445.md)\
