@@ -28,8 +28,9 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 1148 [Article Views I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1148.md)\
 1149 [Article Views II](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1149.md)\
 1126 [Active Businesses](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1126.md)\
-1148 [Article Views I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1148.md)\
 1141 [User Activity for the Past 30 Days I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1141.md)\
+1148 [Article Views I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1148.md)\
+1164 [Product Price at a Given Date](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1164.md)\
 1173 [Immediate Food Delivery I](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1173.md)\
 1179 [Reformat Department Table](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1179.md)\
 1204 [Last Person to Fit in the Bus](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1204.md)\
