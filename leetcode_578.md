@@ -2,11 +2,29 @@
 
 **Description**
 
-Get the highest answer rate question from a table ``survey_log`` with these columns: **uid, action, question_id, answer_id, q_num, timestamp**.
+| Column Name   | Type |
+| ------------- | ---- |
+| id	          | int  |
+| action	      | ENUM |
+| question_id	  |int   |
+| answer_id     |int   |
+| q_num	        | int  |
+| timestamp	    | int  |
 
-uid means user id; action has these kind of values: "show", "answer", "skip"; answer_id is not null when action column is "answer", while is null for "show" and "skip"; q_num is the numeral order of the question in current session.
 
-Write a sql query to identify the question which has the highest answer rate.
+This table may contain duplicate rows.\
+action is an ENUM (category) of the type: "show", "answer", or "skip".\
+Each row of this table indicates the user with id = id has taken an action with the question question_id at time timestamp.\
+If the action taken by the user is "answer", answer_id will contain the ID of that answer; otherwise, it will be NULL.\
+q_num is the numerical order of the question in the current session.
+
+
+The **answer rate** for a question is the number of times a user answered the question divided by the number of times a user showed the question.
+
+Write a solution to report the question that has the **highest answer rate**. If multiple questions have the same maximum answer rate, report the question with the smallest **question_id**.
+
+The result format is in the following example.
+
 
 **Example:**
 
@@ -34,5 +52,15 @@ Question 369 was showed 1 time and was not answered. The answer rate of question
 Question 285 has the highest answer rate.
 
 ```
+
+# Soution
+
+```
+select sum((case when action ='answer' then 1 else 0 end))/sum((case when action ='show' then 1 when action = 'skip' then 1 else 0 end)) as survey_log
+from SurveyLog
+group by question_id;
+
+```
+
 
 # Solution
