@@ -56,11 +56,10 @@ Question 285 has the highest answer rate.
 # Soution
 
 ```
-select sum((case when action ='answer' then 1 else 0 end))/sum((case when action ='show' then 1 when action = 'skip' then 1 else 0 end)) as survey_log
+select sum((case when action ='answer' then 1 else 0 end))/
+sum((case when action ='show' then 1 when action = 'skip' then 1 else 0 end)) as survey_log
 from SurveyLog
 group by question_id;
 
 ```
 
-
-# Solution
