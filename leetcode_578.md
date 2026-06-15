@@ -27,8 +27,11 @@ Output:
 +-------------+
 |    285      |
 +-------------+
-**Explanation:**
-question 285 has answer rate 1/1, while question 369 has 0/1 answer rate, so output 285.
+
+Explanation:
+Question 285 was showed 1 time and answered 1 time. The answer rate of question 285 is 1.0
+Question 369 was showed 1 time and was not answered. The answer rate of question 369 is 0.0
+Question 285 has the highest answer rate.
 
 ```
 
