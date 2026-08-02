@@ -41,3 +41,14 @@ Write an SQL query to report.
 * ``credit_limit_breached``, check credit_limit ("Yes" or "No")
 
 Return the result table in any order.
+
+
+# Solution
+```
+with cte as (
+select u.user_id, ifnull(sum(case when u.user_id = t.paid_by then -1*t.amount else 0 end ),0) + u.credit as total 
+from users u left join transactions t 
+on u.user_id = t.paid_by or u.user_id = t.paid_to
+group by u.user_id, u.credit )
+select u.user_id, u.user_name, c.total as credit, case when c.total > 0 then 'No' else 'Yes' end as credit_limit_breached from users u left join cte as c on u.user_id = c.user_id;
+```
