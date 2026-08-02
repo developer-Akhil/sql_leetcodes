@@ -52,6 +52,7 @@ It contains details of the leetcode SQL queries, including their schema and tabl
 1511 [Customer Order Frequency](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1511.md)\
 1517 [Find Users With Valid E-Mails](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1517.md)\
 1532 [The Most Recent Three Orders](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1532.md)\
+1555 [Bank Account Summary](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1555.md)\
 1571 [Warehouse Manager](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1571.md)\
 1613 [Find the Missing IDs](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1613.md)\
 1633 [Percentage of Users Attended a Contest](https://github.com/developer-Akhil/sql_leetcodes/blob/main/leetcode_1633.md)\
